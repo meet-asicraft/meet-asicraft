@@ -1,0 +1,17 @@
+{
+  "UVM Info MS_DEBUG": {
+    "prefix": "ms_debug",
+    "body": [
+      "`uvm_info(\"MS_DEBUG\", $$sformatf(\"$1\", $2), UVM_NONE)"
+    ],
+    "description": "Insert a UVM_INFO line with MS_DEBUG tag"
+  },
+
+  "UVM Warning MS_DEBUG": {
+    "prefix": "ms_warn",
+    "body": [
+      "`uvm_warning(\"MS_DEBUG\", $$sformatf(\"$1\", $2))"
+    ],
+    "description": "Insert a UVM_WARNING line with MS_DEBUG tag"
+  }
+}
